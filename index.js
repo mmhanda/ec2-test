@@ -5,7 +5,7 @@ import express from 'express';
 const app = express();
 app.use(express.json());
 
-const startUrls = ['https://1337.ma/en/'];
+const startUrls = ['https://www.thecollector.com/'];
 
 app.get('/test', async (req, res) => {
   /////////////////////////////////////////////
